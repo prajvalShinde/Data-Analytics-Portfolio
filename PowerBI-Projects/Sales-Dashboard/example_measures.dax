@@ -1,0 +1,3 @@
+Total Sales = SUMX(Sales, Sales[Quantity] * Sales[UnitPrice])
+Total Profit = SUMX(Sales, Sales[Quantity] * (Sales[UnitPrice] - Sales[UnitCost]))
+Total Quantity = SUM(Sales[Quantity])

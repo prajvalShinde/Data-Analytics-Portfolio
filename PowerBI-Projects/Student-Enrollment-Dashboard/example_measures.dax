@@ -1,0 +1,2 @@
+Total Students = DISTINCTCOUNT(Students[StudentID])
+Total Enrollments = COUNTROWS(Enrollments)
